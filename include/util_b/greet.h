@@ -1,2 +1,2 @@
 
-void greet_world();
+void greet_world_reversed();

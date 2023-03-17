@@ -1,9 +1,11 @@
+#include "greet.h"
+
 #include <common/gen_greet.h>
 
 #include <algorithm>
 #include <iostream>
 
-void greet_world() {
+void greet_world_reversed() {
     auto greet = generate_greeting();
     std::reverse(greet.begin(), greet.end());
 
