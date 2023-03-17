@@ -8,13 +8,13 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(Common)
 
-add_library(UtilA)
+add_library(UtilB)
 
 add_subdirectory(include)
 add_subdirectory(src)
 
 target_link_libraries(
-    UtilA
+    UtilB
     PRIVATE
     CommonUmbrella
 )

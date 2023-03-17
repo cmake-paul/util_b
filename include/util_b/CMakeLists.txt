@@ -1,11 +1,11 @@
 target_sources(
-    UtilA
+    UtilB
     PUBLIC
     "${CMAKE_CURRENT_LIST_DIR}/greet.h"
 )
 
 target_include_directories(
-    UtilA
+    UtilB
     PRIVATE
     "${CMAKE_CURRENT_LIST_DIR}"
 )
