@@ -6,7 +6,7 @@ If the above does not ring any bells, check out [CMake PAUL's organization page]
 
 ## Usage
 
-Include this repository via
+In a parent project, include this repository via
 
 ```cmake
 include(FetchContent)
